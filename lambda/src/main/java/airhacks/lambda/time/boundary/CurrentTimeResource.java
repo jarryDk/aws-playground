@@ -19,5 +19,5 @@ public class CurrentTimeResource {
         return LocalDateTime
         .now()
         .format(DateTimeFormatter.ofPattern("d MMM uuuu, HH:mm:ss"));
-    }    
+    }
 }
